@@ -14,7 +14,7 @@ app.use(function(req, res, next) {
   next();
 });
 
-const PORT = 3007;
+const PORT = 8443;
 // importar rotas
 require("./src/routes/Routes")(app, routes);
 
